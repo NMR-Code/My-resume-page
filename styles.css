@@ -26,7 +26,7 @@ html,
 body {
     background-image: url(https://us.123rf.com/450wm/ninalisitsyna/ninalisitsyna1804/ninalisitsyna180400018/98824413-modern-design-digital-wallpaper-for-banner-design-vector-binary-code-background-vector-coding-icon-d.jpg?ver=6);
     font-family: "Poppins";
-    font-size: 0.65vw;
+    font-size: 0.85vw;
     text-align: center;
     margin: 0;
     font-size: clamp(16px, 0.65vw, 50px);
@@ -118,6 +118,10 @@ div img {
 
 .contact {
     background-color: var(--grey-box);
+}
+
+.number {
+    font-size: 1.0vw;
 }
 
 footer {
