@@ -1,0 +1,133 @@
+:root {
+    --section-background-color: rgb(243, 243, 243);
+    --div-margin: 20px;
+    --grey-box: rgb(165, 165, 165);
+    --white-box: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('fonts/Poppins-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Poppins-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/Poppins-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/Poppins-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Poppins-Regular.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Affects the entire page */
+
+html,
+body {
+    background-image: url(https://us.123rf.com/450wm/ninalisitsyna/ninalisitsyna1804/ninalisitsyna180400018/98824413-modern-design-digital-wallpaper-for-banner-design-vector-binary-code-background-vector-coding-icon-d.jpg?ver=6);
+    font-family: "Poppins";
+    font-size: 0.65vw;
+    text-align: center;
+    margin: 0;
+    font-size: clamp(16px, 0.65vw, 50px);
+}
+
+.title {
+    font-size: 3vw;
+    margin: auto;
+    padding: 0;
+    color: var(--white-box);
+}
+
+section {
+    display: block;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: var(--white-box);
+    border-radius: 20px;
+    box-shadow: 8px 4px rgba(211, 211, 211, 0.342);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 70%;
+    overflow: hidden;
+    padding: 5%;
+}
+
+header a {
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 0, 0);
+    margin-bottom: 5%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* Body */
+
+.profile-pic {
+    margin: auto;
+    padding-top: 5%;
+}
+
+.projects {
+    background-color: var(--grey-box);
+}
+
+.projects a {
+    display: inline;
+    background-color: none;
+}
+
+
+/* Images and Effects */
+
+.projects img {
+    opacity: 1;
+    max-width: 28%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 400px;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+a:hover img {
+    opacity: 0.4;
+    transform: scale(1.5);
+}
+
+div img {
+    border-radius: 20px;
+    max-width: 15vw;
+}
+
+
+/* Bottom Section */
+
+.contact {
+    background-color: var(--grey-box);
+}
+
+footer {
+    font-size: 40px;
+    color: white;
+}
+
+
+/* Media Queries
+
+@media (max-width: 748px) {}
+
+ */
